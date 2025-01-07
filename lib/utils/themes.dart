@@ -15,7 +15,7 @@ class Themes {
         scaffoldBackgroundColor: Colors.lightBlue,
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.deepPurpleAccent,
+            backgroundColor: Colors.deepPurple,
             foregroundColor: Colors.yellowAccent,
             minimumSize: const Size(64, 32),
             textStyle: const TextStyle(
