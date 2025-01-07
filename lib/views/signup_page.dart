@@ -23,6 +23,8 @@ class SignupPage extends StatelessWidget {
                 TextField(
                   autofocus: true,
                   autocorrect: false,
+                  textInputAction: TextInputAction.next,
+                  keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
                     labelText: 'Email',
                   ),
@@ -30,6 +32,9 @@ class SignupPage extends StatelessWidget {
                 SizedBox(height: 32),
                 TextField(
                   autocorrect: false,
+                  obscureText: true,
+                  textInputAction: TextInputAction.next,
+                  keyboardType: TextInputType.text,
                   decoration: InputDecoration(
                     labelText: 'Password',
                   ),
@@ -37,6 +42,9 @@ class SignupPage extends StatelessWidget {
                 SizedBox(height: 32),
                 TextField(
                   autocorrect: false,
+                  obscureText: true,
+                  textInputAction: TextInputAction.done,
+                  keyboardType: TextInputType.text,
                   decoration: InputDecoration(
                     labelText: 'Confirm Password',
                   ),
